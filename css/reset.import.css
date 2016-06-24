@@ -1,0 +1,176 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: DIN-Bold;
+    src: url('font/DIN-Bold.ttf');
+}
+
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-family: DIN-Bold,'PingFangSC-Light',"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, STHeiTi, sans-serif;
+}
+
+body, 
+dl, 
+dd, 
+h1, 
+h2, 
+h3,
+p,
+ol,
+ul,
+input[type="radio"],
+input[type="checkbox"]
+{
+    margin:0;
+}   
+
+ol,
+ul{
+    padding:0;
+    
+}
+
+body {
+    /*-webkit-user-select: none;*/
+    -webkit-tap-highlight-color: transparent;
+    outline: 0;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-size: 100%;
+    font-weight: 400;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+img {
+    border: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+input, 
+button, 
+textarea, 
+select, 
+option {
+    font: inherit;
+    outline: 0; /* 去除移动端下表单阴影 */
+    -webkit-appearance: none; /* 去除IOS下表单阴影 */
+}
+
+button {
+    padding:0;
+    margin:0;
+    border: 0;
+}
+
+a {
+    -webkit-touch-callout: none;
+    text-decoration: none;
+}
+
+em, 
+i {
+    font-style: normal;
+}
+
+.ui-btn,
+.ui-btn-lg,
+.ui-btn-s {
+    height: 45px;
+    line-height: 45px;
+    padding: 0 11px;
+    min-width: 55px;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    font-size: 15px;
+    background-color: #fdfdfd;
+    background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0.5,#fff),to(#fafafa));
+    vertical-align: top;
+    color: #00a5e0;
+    -webkit-box-sizing: border-box;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    /* border: 1px solid #cacccd; */
+}
+.ui-btn-lg {
+    font-size: 18px;
+    height: 44px;
+    line-height: 44px;
+    display: block;
+    width: 100%;
+    font-size: 16px;
+}
+.ui-form .ui-btn-primary{
+    margin-top: 20px;
+    background: #234BA1;
+    color: #fff;
+}
+.ui-select {
+    position: relative;
+    margin-right: 30px;
+}
+.ui-select:after {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    margin-top: -4px;
+    width: 0;
+    height: 0;
+    border-top: 6px solid;
+    border-right: 5px solid transparent;
+    border-left: 5px solid transparent;
+    color: #a6a6a6;
+    content: "";
+    pointer-events: none;
+}
+.ui-select-group {
+    margin-left: 35px;
+    overflow: hidden;
+}
+.ui-select-group .ui-select {
+    float: left;
+}
+.ui-select select {
+    -webkit-appearance: none;
+    border: 0;
+    background: 0 0;
+    width: 100%;
+    padding-right: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

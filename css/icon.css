@@ -1,0 +1,65 @@
+.icon-logo,
+.icon-setting,
+.icon-menu,
+.icon-car-approve,
+.icon-message,
+.icon-success,
+.icon-newMes,
+.icon-name,
+.icon-phone,
+.icon-location
+{
+    width: 70px;
+    height: 51.5px;
+    background-image: url(img/slice/logo@2x.png);
+    display: inline-block;
+    background-size:cover;
+}
+.icon-logo{
+    margin-top: -10px;
+}
+.icon-menu{
+    width: 17.5px;
+    height: 14.5px;
+    background-image: url(img/slice/menu@2x.png);
+}
+.icon-setting{
+    width: 16px;
+    height: 16px;
+    background-image: url(img/slice/setting-icon@2x.png);
+}
+.icon-car-approve{
+    width: 24px;
+    height: 23px;
+    background-image: url(img/slice/user-icon@2x.png);
+}
+.icon-message{
+    width: 24px;
+    height: 17.5px;
+    background-image: url(img/slice/message@2x.png);
+}
+.icon-success{
+    width: 12px;
+    height: 12px;
+    background-image: url(img/slice/suc-icon@2x.png);
+}
+.icon-newMes{
+    width: 12px;
+    height: 12px;
+    background-image: url(img/slice/new-mes@2x.png);
+}
+.icon-name{
+    width: 20px;
+    height: 20px;
+    background-image: url(img/slice/name-icon@2x.png);
+}
+.icon-phone{
+    width: 14px;
+    height: 20px;
+    background-image: url(img/slice/phone-icon@2x.png);
+}
+.icon-location{
+    width: 15.5px;
+    height: 20.5px;
+    background-image: url(img/slice/location-icon@2x.png);
+}

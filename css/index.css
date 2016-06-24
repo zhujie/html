@@ -1,0 +1,203 @@
+@charset "utf-8";
+
+@import "icon.css";
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+.p20{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+
+/* 左右两端对齐*/
+.justify-grid {
+    display: table;
+    width: 100%;
+}
+.justify-grid .col:first-child {
+    text-align: left;
+}
+.justify-grid .col {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: right;
+}
+/*end*/
+
+
+header{
+    height: 50px;
+    padding-left: 20px;
+    font-size: 0;
+    /* position: fixed; */
+    width: 100%;
+}
+header a.btn{
+    display:inline-block;
+    padding: 20px;
+}
+header a.btn:hover{
+    background-color:#eee;
+}
+
+
+/*列表*/
+.list-banner{
+    font-size: 0;
+}
+
+.active-list{
+    padding-top: 10px;
+}
+.active-list li img{
+    width: 110px;
+    height: 85px;
+    vertical-align: top;
+}
+
+.active-list li{
+    font-size: 0;
+    border-bottom: 1px solid #D2D2D2;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.active-list li a{
+    display: block;
+}
+.active-list li:last-child{
+    border-bottom: none;
+}
+.active-list .right-box{
+    display: inline-block;
+    height: 85px;
+    padding-left: 13px;
+    width: 212px;
+}
+.active-list .right-box .til{
+    font-size: 17px;
+    height: 56px;
+    overflow: hidden;
+    color: #000;
+}
+.active-list .right-box .text{
+    font-size: 12px;
+    color: #999;
+}
+
+/*会员*/
+.member-banner{
+    position: relative;
+    background: url(img/member/banner-bg.jpg);
+    background-size: cover;
+    height: 220px;
+    text-align: center;
+}
+
+.member-banner .icon-setting{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+.member-banner .user-portrait {
+    border: 3px solid;
+    height: 83px;
+    width: 83px;
+    border-radius: 55px;
+    border-color: rgba(255, 255, 255,0.2);
+    display: inline-block;
+    margin-top: 53px;
+}
+.member-banner .user-portrait .img-box img{
+    border-radius: 100px;
+}
+.member-banner .text-name{
+    color: #fff;
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+.member-bd{
+
+}
+.member-bd .member-bd-list{
+    font-size: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #D2D2D2;
+    margin-left: 20px;
+    margin-right: 20px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.member-bd .member-bd-list li{
+    display: inline-block;
+    font-size: 14px;
+    width: 50%;
+    text-align: center;
+    border-right: 1px solid #D2D2D2;
+    margin-left: 1px;
+    position: relative;
+}
+.member-bd .member-bd-list li a{
+    display: block;
+    color: #000;
+}
+.member-bd .member-bd-list li .text{
+    margin-top: 10px;
+}
+.member-bd .member-bd-list li .icon-success,
+.member-bd .member-bd-list li .icon-newMes
+{
+    position: absolute;
+    top: -5px;
+    margin-left: 22px;
+}
+
+/*会员注册*/
+.ui-form{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.ui-form .ui-form-item{
+    border-bottom: 1px solid #E9EFF3;
+    /* height: 44px; */
+    /* line-height: 44px; */
+    padding: 13px 0;
+}
+.ui-form-item input,
+.ui-form-item textarea {
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    border: 0;
+    background: 0 0;
+    padding-left: 35px;
+}
+.ui-form-item label:not(.ui-switch):not(.ui-checkbox):not(.ui-checkbox-s):not(.ui-radio) {
+    width: 61px;
+    position: absolute;
+    text-align: left;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
