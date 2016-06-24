@@ -35,6 +35,7 @@ header{
     font-size: 0;
     /* position: fixed; */
     width: 100%;
+    border-bottom: 1px solid #E8E8E8;
 }
 header a.btn{
     display:inline-block;
@@ -164,10 +165,15 @@ header a.btn:hover{
 }
 .ui-form .ui-form-item{
     border-bottom: 1px solid #E9EFF3;
-    /* height: 44px; */
-    /* line-height: 44px; */
     padding: 13px 0;
+    position: relative;
+    color: #999;
 }
+.ui-form.no-border .ui-form-item{
+    border-bottom: none;
+}
+
+
 .ui-form-item input,
 .ui-form-item textarea {
     width: 100%;
@@ -179,15 +185,27 @@ header a.btn:hover{
     padding-left: 35px;
 }
 .ui-form-item label:not(.ui-switch):not(.ui-checkbox):not(.ui-checkbox-s):not(.ui-radio) {
-    width: 61px;
+    width: 75px;
     position: absolute;
     text-align: left;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
+.ui-form-item .text{
+    padding-left: 88px;
+    color: #000;
+}
 
 
 
+/*会员认证*/
+.verification-img{
+    width: 121.5px;
+    height: 35.5px;
+    position: absolute;
+    right: 0;
+    top: 6px;
+}
 
 
 

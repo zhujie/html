@@ -7,7 +7,9 @@
 .icon-newMes,
 .icon-name,
 .icon-phone,
-.icon-location
+.icon-location,
+.icon-verification,
+.icon-chepai
 {
     width: 70px;
     height: 51.5px;
@@ -54,12 +56,49 @@
     background-image: url(img/slice/name-icon@2x.png);
 }
 .icon-phone{
-    width: 14px;
+    width: 20px;
     height: 20px;
     background-image: url(img/slice/phone-icon@2x.png);
 }
 .icon-location{
-    width: 15.5px;
+    width: 20px;
     height: 20.5px;
     background-image: url(img/slice/location-icon@2x.png);
 }
+.icon-verification{
+    width: 20px;
+    height: 14px;
+    background-image: url(img/slice/verification-icon@2x.png);
+}
+.icon-chepai{
+    width: 20px;
+    height: 14px;
+    background-image: url(img/slice/chepai@2x.png);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
