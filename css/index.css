@@ -208,12 +208,34 @@ header a.btn:hover{
 }
 
 
-
-
-
-
-
-
+/*区域活动列表*/
+.area-active-list{
+    padding: 20px;
+    padding-bottom: 0;
+}
+.area-active-list li{
+    position: relative;
+    font-size: 0;
+    margin-bottom: 20px;
+}
+.area-active-list li .info-box{
+    height: 60px;
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    line-height: 21px;
+    padding-top: 10px;
+    padding: 10px 20px;
+}
+.area-active-list li .text{
+    font-size: 11px;
+    color: #fff;
+}
+.area-active-list li .til{
+    font-size: 14px;
+    color: #fff;
+}
 
 
 
