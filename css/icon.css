@@ -9,7 +9,9 @@
 .icon-phone,
 .icon-location,
 .icon-verification,
-.icon-chepai
+.icon-chepai,
+.icon-circle,
+.icon-phone-number
 {
     width: 70px;
     height: 51.5px;
@@ -18,7 +20,7 @@
     background-size:cover;
 }
 .icon-logo{
-    margin-top: -10px;
+    margin-top: -8px;
 }
 .icon-menu{
     width: 17.5px;
@@ -75,8 +77,16 @@
     height: 14px;
     background-image: url(img/slice/chepai@2x.png);
 }
-
-
+.icon-circle{
+    width: 18px;
+    height: 18px;
+    background-image: url(img/slice/circle-icon@2x.png);
+}
+.icon-phone-number{
+    width: 12px;
+    height: 12px;
+    background-image: url(img/slice/phone-number-icon@2x.png);
+}
 
 
 

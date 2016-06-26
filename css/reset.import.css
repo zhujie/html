@@ -38,6 +38,7 @@ body {
     /*-webkit-user-select: none;*/
     -webkit-tap-highlight-color: transparent;
     outline: 0;
+    padding-top: 50px;
 }
 
 h1,
@@ -152,8 +153,28 @@ i {
     width: 100%;
     padding-right: 14px;
 }
-
-
+select{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: 1px solid #234BA1;
+    background-color: #fff;
+    background-image: url(img/down-arrow@2x.png);
+    background-size: 14.5px 8px;
+    background-repeat: no-repeat;
+    background-position: 95% 50%;
+    box-shadow: none;
+    color: #234BA1;
+    font-size: 15px;
+    cursor: pointer;
+    height: 39px;
+    padding: 8px 24px 7px 6px;
+    vertical-align: middle;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+}
 
 
 

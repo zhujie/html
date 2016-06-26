@@ -33,16 +33,57 @@ header{
     height: 50px;
     padding-left: 20px;
     font-size: 0;
-    /* position: fixed; */
+    position: fixed;
     width: 100%;
     border-bottom: 1px solid #E8E8E8;
+    background-color: #fff;
+    top: 0;
 }
 header a.btn{
     display:inline-block;
-    padding: 20px;
+    padding: 17px 20px;
 }
 header a.btn:hover{
     background-color:#eee;
+}
+
+header .drop-box{
+    background: rgba(0, 0, 0, 0.85);
+    margin-left: -20px;
+    position: fixed;
+    width: 100%;
+    padding: 0 20px;
+    z-index: 1;
+    display: none;
+}
+header .drop-box .drop-list li{
+    border-bottom: 1px solid #fff;
+    line-height: 44px;
+    height: 45px;
+}
+header .drop-box .drop-list li:last-child{
+    border-bottom: none;
+}
+header .drop-box .drop-list a{
+    color:#FFF;
+    font-size: 14px;
+    display: block;
+}
+
+footer{
+    padding:45px 0;
+    text-align: center;
+    background: #2F2F35;
+    color:rgba(255, 255, 255, 0.3);
+    font-size: 10px;
+    line-height: 20px;
+}
+footer a:first-child{
+    margin-left: 0;
+}
+footer a{
+    color:rgba(255, 255, 255, 0.3);
+    margin-left: 10px;
 }
 
 
@@ -212,6 +253,8 @@ header a.btn:hover{
 .area-active-list{
     padding: 20px;
     padding-bottom: 0;
+
+
 }
 .area-active-list li{
     position: relative;
@@ -237,7 +280,182 @@ header a.btn:hover{
     color: #fff;
 }
 
+/*车型列表*/
+.car-list{
+    font-size: 0;
+}
+.car-list li{
+    margin-bottom: 5px;
+}
+
+/*二级参数列表*/
+.config-list{
+    padding: 20px;
+}
+
+.config-list .til{
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 25px;
+}
+.config-list li{
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid #ccc;
+}
+.config-list .text{
+    color: #000;
+    font-size: 14px;
+}
+.config-list .text.gray{
+    color:#999;
+}
+
+/*二级详情*/
+.details-box{
+    padding: 20px;
+    font-size: 14px;
+    color: #656565;
+}
+.details-box .til{
+    font-size: 19px;
+    font-weight: bold;
+    line-height: 45px;
+    color: #000;
+}
+.details-box .til h3{
+    border-bottom: 1px solid #ccc;
+    display: inline-block;
+    font-weight: bold;
+}
+.details-box .con{
+    line-height: 25px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.details-box .con img{
+    margin-top: 10px;
+}
 
 
+/*品牌历史*/
+.history-box{
+    padding: 20px;
+}
+.history-list{
+    margin-top: 20px;
+    margin-left: 8px;
+}
+.history-list li{
+    border-left:1px solid #A8A8A8;
+    padding-left: 20px;
+    position: relative;
+    padding-bottom: 25px;
+}
+.history-list .til{
+    font-size: 21px;
+    color: #234BA1;
+    font-weight: bold;
+    line-height: 16px;
+    margin-bottom: 15px;
+}
+.history-box h3{
+    font-weight: bold;
+    border-left:2px solid #234BA1;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    line-height: 16px;
+}
+
+.history-list .icon-circle{
+    position: absolute;
+    background-color: #fff;
+    left: 0;
+    left: -9px;
+}
+.history-list .con{
+    color: #656565;
+    font-size: 12px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+/*品牌大事件*/
+.history-box.brand .title{
+    margin-bottom: 26px;
+}
+.history-box.brand .title h2{
+    font-size: 28px;
+}
+.history-box.brand .title .txt{
+    font-size: 17px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.history-box.brand{
+    background: #212125;
+    color: #fff;
+}
+.history-box.brand .icon-circle{
+    background-color: #212125;
+}
+.history-box.brand .til{
+    color: #fff;
+}
+.history-box.brand .con{
+    color: #999;
+}
+
+
+/*文章内容*/
+.news-details-box{
+    padding:30px 20px;
+    font-size: 14px;
+    color: #656565;
+    line-height: 1.5;
+}
+.news-details-box h1{
+    font-size: 19px;
+    color: #000;
+    font-weight: bold;
+}
+.news-details-box .date-text{
+    line-height: 25px;
+    margin-bottom: 15px;
+    color: #999;
+}
+
+/*经销商信息*/
+.map-box{
+    padding: 20px;
+    font-size: 14px;
+}
+.map-box .title{
+    border-bottom: 1px solid #8D9099;
+    line-height: 45px;
+}
+.map-box .map-list li{
+    padding-top: 15px;
+}
+.map-box .map-list h3{
+    font-size: 17px;
+}
+.map-box .map-list .text{
+    font-size: 12px;
+    color: #999;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+.map-box .map-list .phone-btn{
+    height: 25px;
+    line-height: 25px;
+    color: #234BA1;
+    border:1px solid #234BA1;
+    display: block;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+.map-box .map-list .phone-btn .icon-phone-number{
+    margin-right: 5px;
+}
 
 
