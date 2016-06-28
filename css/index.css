@@ -209,6 +209,9 @@ footer a{
     padding: 13px 0;
     position: relative;
     color: #999;
+    display: table;
+    width: 100%;
+    table-layout: fixed;
 }
 .ui-form.no-border .ui-form-item{
     border-bottom: none;
@@ -217,24 +220,25 @@ footer a{
 
 .ui-form-item input,
 .ui-form-item textarea {
-    width: 100%;
-    -webkit-box-sizing: border-box;
     box-sizing: border-box;
     -webkit-appearance: none;
     border: 0;
     background: 0 0;
-    padding-left: 35px;
+    vertical-align: middle;
+    display: table-cell;
 }
 .ui-form-item label:not(.ui-switch):not(.ui-checkbox):not(.ui-checkbox-s):not(.ui-radio) {
-    width: 75px;
-    position: absolute;
     text-align: left;
-    -webkit-box-sizing: border-box;
     box-sizing: border-box;
+    display: table-cell;
+    width: 30px;
+    vertical-align: middle;
 }
 .ui-form-item .text{
-    padding-left: 88px;
+    /* padding-left: 88px; */
     color: #000;
+    vertical-align: middle;
+    display: inline-block;
 }
 
 
