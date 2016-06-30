@@ -11,28 +11,34 @@ $("header .btn").click(function(){
 });
 
 
+function vidplay() {
+    var video = document.getElementById("myVideo");
+    if (video.paused) {
+        video.play();
+    } else {
+        video.pause();
+    }
+}
 
+
+$("#myVideo").click(function(){
+    vidplay();
+});
 
 
 // pure JS
 var elem = document.getElementById('mySwipe');
 window.mySwipe = Swipe(elem, {
-    startSlide: 4,
-    auto: 3000,
     continuous: true,
     disableScroll: false,
     stopPropagation: false,
     callback: function(index, element) {
-//     console.log(mySwipe.slide(1, 100))
-
+        console.log(index)
+        $(".core-banner-index li").eq(index).addClass('cur').siblings().removeClass('cur')
     },
     transitionEnd: function(index, element) {
-        console.log("go2")
     }
 });
-
-
-
 
 
 

@@ -1,5 +1,6 @@
 @charset "utf-8";
 
+@import "reset.import.css";
 @import "icon.css";
 
 img{
@@ -38,6 +39,7 @@ header{
     border-bottom: 1px solid #E8E8E8;
     background-color: #fff;
     top: 0;
+    z-index: 9;
 }
 header a.btn{
     display:inline-block;
@@ -130,6 +132,32 @@ footer a{
     color: #999;
 }
 
+/*站内信*/
+.mail-list{
+    font-size: 14px;
+    color: #333;
+    padding-top: 10px;
+}
+.mail-list li{
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+}
+.mail-list .til{
+    font-size: 17px;
+    overflow: hidden;
+    color: #333;
+}
+.mail-list .text{
+    font-size: 12px;
+    color: #999;
+    margin-top: 10px;
+}
+.mail-list li a.active .til{
+    color: #999;
+}
+
+
+
 /*会员*/
 .member-banner{
     position: relative;
@@ -209,9 +237,7 @@ footer a{
     padding: 13px 0;
     position: relative;
     color: #999;
-    display: table;
     width: 100%;
-    table-layout: fixed;
 }
 .ui-form.no-border .ui-form-item{
     border-bottom: none;
@@ -225,15 +251,22 @@ footer a{
     border: 0;
     background: 0 0;
     vertical-align: middle;
-    display: table-cell;
+    display: inline-block;
+    height: 100%;
 }
 .ui-form-item label:not(.ui-switch):not(.ui-checkbox):not(.ui-checkbox-s):not(.ui-radio) {
     text-align: left;
     box-sizing: border-box;
-    display: table-cell;
+    display: inline-block;
     width: 30px;
     vertical-align: middle;
 }
+.zhuce .ui-form-item label{
+    
+width: 80px !important;
+}
+
+
 .ui-form-item .text{
     /* padding-left: 88px; */
     color: #000;
@@ -461,5 +494,112 @@ footer a{
 .map-box .map-list .phone-btn .icon-phone-number{
     margin-right: 5px;
 }
+
+
+/*核心技术*/
+.core-banner-index{
+    height: 45px;
+    background-color: #6A6B70;
+    text-align: center;
+}
+.core-banner-index ul{
+    display: inline-block;
+    /* margin-top: 15px; */
+    height: 45px;
+    line-height: 49px;
+}
+.core-banner-index li{
+    background-color: #91929A;
+    width: 13px;
+    height: 13px;
+    display: inline-block;
+    border-radius: 15px;
+    margin-right: 5px;
+}
+.core-banner-index li.cur{
+    background-color: #fff;
+}
+
+.core-box{
+    font-size: 14px;
+    color: #666;
+    /* padding: 20px; */
+    line-height: 1.5;
+    text-align: center;
+}
+.core-box p{
+    text-align: left;
+    padding: 20px;
+}
+.property{
+    height: 1014px;
+    width:100%;
+    background: url(img/core/01-bg.jpg);
+    background-size: cover;
+}
+.property img{
+    margin-top: 50px;
+}
+.property .til{
+    font-size: 21px;
+    color: #fff;
+    margin-top: 10px;
+}
+.property .text{
+    font-size: 14px;
+    color: #999;
+    padding: 0 20px;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 

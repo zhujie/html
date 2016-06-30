@@ -10,7 +10,7 @@
 }
 
 html{
-    font-family: DIN-Bold,'PingFangSC-Light',"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, STHeiTi, sans-serif;
+    font-family: 'PingFangSC-Light',"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, STHeiTi, sans-serif;
 }
 
 body, 
@@ -87,6 +87,11 @@ em,
 i {
     font-style: normal;
 }
+.my-font{
+    font-family: DIN-Bold;
+}
+
+
 
 .ui-btn,
 .ui-btn-lg,
