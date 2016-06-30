@@ -13,14 +13,14 @@
 .icon-circle,
 .icon-phone-number
 {
-    width: 70px;
-    height: 51.5px;
     background-image: url(img/slice/logo@2x.png);
     display: inline-block;
     background-size:cover;
 }
 .icon-logo{
-    margin-top: -8px;
+    width: 67px;
+    height: 37px;
+    margin-top: -1px;
 }
 .icon-menu{
     width: 17.5px;

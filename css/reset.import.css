@@ -147,6 +147,8 @@ i {
 .ui-select-group {
     margin-left: 35px;
     overflow: hidden;
+    display: inline-block;
+    vertical-align: middle;
 }
 .ui-select-group .ui-select {
     float: left;
