@@ -73,7 +73,7 @@ header .drop-box .drop-list a{
 }
 
 footer{
-    padding:45px 0;
+    padding: 20px 0;
     text-align: center;
     background: #2F2F35;
     color:rgba(255, 255, 255, 0.3);
@@ -501,6 +501,9 @@ width: 80px !important;
     height: 45px;
     background-color: #6A6B70;
     text-align: center;
+    position: fixed;
+    width: 100%;
+    z-index: 8;
 }
 .core-banner-index ul{
     display: inline-block;
@@ -527,15 +530,25 @@ width: 80px !important;
     line-height: 1.5;
     text-align: center;
 }
+.core-box .core-con{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.core-box .core-con h3{
+    color: #000;
+    font-size: 17px;
+    font-weight: bold;
+    margin: 10px 0;
+}
 .core-box p{
     text-align: left;
-    padding: 20px;
+    padding: 20px 0;
 }
 .property{
-    height: 1014px;
     width:100%;
     background: url(img/core/01-bg.jpg);
     background-size: cover;
+    padding-bottom: 30px;
 }
 .property img{
     margin-top: 50px;
@@ -552,22 +565,99 @@ width: 80px !important;
     margin-top: 10px;
 }
 
+.property video{
+    margin-top: 30px;
+}
 
 
+/*拉力赛*/
+.rally-box{
+    font-size: 0;
+    line-height: 1.5;
+}
+.rally-box .more-btn{
+    width: 140px;
+    height: 35px;
+    background-image: url(img/slice/more-bg@2x.png);
+    background-size: cover;
+    position: absolute;
+    display: block;
+}
 
 
+.rally-box .map{
+    position: relative;
+    line-height: 1.5;
+}
+.rally-box .map .more-btn{
+    z-index: 9;
+    bottom: 0;
+    right: 20px;
+}
 
+.rally-box .map .text{
+    padding: 0 20px;
+    font-size: 14px;
+    color: #fff;
+    position: absolute;
+    top: 380px;
+}
 
+.user-box{
+    position: relative;
+    overflow: hidden;
+}
+.user-box-list-box{
+    position: absolute;
+    overflow: auto;
+    top: 141px;
+    width: 100%;
+    box-sizing: border-box;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.user-box .user-box-list{
+    white-space: nowrap;
+}
+.user-box .user-box-list li{
+    width: 120px;
+    height: 140px;
+    display: inline-block;
+    margin-right: 10px;
+}
+.user-box .more-btn{
+    bottom: 60px;
+    left: 20px;
+}
 
-
-
-
-
-
-
-
-
-
+.rally-box .history-text{
+    position: relative;
+}
+.rally-box .history-text .text{
+    padding: 0 20px;
+    font-size: 14px;
+    color: #fff;
+    position: absolute;
+    top: 352px;
+}
+.rally-box .history-text .more-btn{
+    right:20px;
+    bottom: 48px;
+}
+.rally-box .ft-box{
+    position: relative;
+}
+.rally-box .ft-box .text{
+    padding: 0 20px;
+    font-size: 14px;
+    color: #fff;
+    position: absolute;
+    top: 365px;
+}
+.rally-box .ft-box .more-btn{
+    left: 20px;
+    bottom: 48px;
+}
 
 
 

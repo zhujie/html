@@ -33,8 +33,13 @@ window.mySwipe = Swipe(elem, {
     disableScroll: false,
     stopPropagation: false,
     callback: function(index, element) {
-        console.log(index)
+        $("body").scrollTop(0);
         $(".core-banner-index li").eq(index).addClass('cur').siblings().removeClass('cur')
+
+
+        var $this_height = $(".core-box").eq(index).height();
+
+        $(".swipe-wrap").css('height',$this_height);
     },
     transitionEnd: function(index, element) {
     }

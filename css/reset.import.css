@@ -188,6 +188,7 @@ select{
     overflow: hidden;
     visibility: hidden;
     position: relative;
+    padding-top: 45px;
 }
 .swipe-wrap {
     overflow: hidden;
