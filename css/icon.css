@@ -1,26 +1,13 @@
-.icon-logo,
-.icon-setting,
-.icon-menu,
-.icon-car-approve,
-.icon-message,
-.icon-success,
-.icon-newMes,
-.icon-name,
-.icon-phone,
-.icon-location,
-.icon-verification,
-.icon-chepai,
-.icon-circle,
-.icon-phone-number
-{
-    background-image: url(img/slice/logo@2x.png);
+[class^="icon-"], [class*=" icon-"] {
     display: inline-block;
     background-size:cover;
 }
+
 .icon-logo{
     width: 67px;
     height: 37px;
     margin-top: -1px;
+    background-image: url(img/slice/logo@2x.png);
 }
 .icon-menu{
     width: 17.5px;
@@ -90,8 +77,11 @@
     background-image: url(img/slice/phone-number-icon@2x.png);
 }
 
-
-
+.icon-white-phone{
+    width: 12px;
+    height: 12px;
+    background-image: url(img/slice/white-phone@2x.png);
+}
 
 
 

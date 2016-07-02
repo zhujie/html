@@ -610,16 +610,16 @@ width: 80px !important;
 .user-box-list-box{
     position: absolute;
     overflow: auto;
-    top: 141px;
+    top: 110px;
     width: 100%;
     box-sizing: border-box;
     padding-left: 20px;
     padding-right: 20px;
 }
-.user-box .user-box-list{
+.user-box-list{
     white-space: nowrap;
 }
-.user-box .user-box-list li{
+.user-box-list li{
     width: 120px;
     height: 140px;
     display: inline-block;
@@ -660,36 +660,367 @@ width: 80px !important;
 }
 
 
+/*车型详情*/
+.car-details-box{
+
+font-size: 14px;
+}
+.car-details-box .more-colors{
+
+}
+
+.car-details-box .text-box{
+    text-align: right;
+    padding-right: 20px;
+}
+.car-details-box .text-box h2{
+    font-size: 28px;
+}
+.car-details-box .text-box p{
+    font-size: 17px;
+    color: #a2a2a2;
+}
+
+.car-details-box .car-img{
+    margin-top: 30px;
+    padding: 0 20px;
+}
+
+.select-color .car-color{
+    width: 25px;
+    height: 25px;
+    background-color: #e8e9ea;
+    display: inline-block;
+    border-radius: 30px;
+    background-size: cover;
+}
+.select-color .car-color:hover,
+.select-color .car-color:active
+{
+    border:1px solid #06c;
+}
+
+
+.select-color{
+    padding-top: 30px;
+}
+.select-color ul{
+    text-align: center;
+    padding-bottom: 28px;
+}
+.select-color li{
+    display: inline-block;
+    position: relative;
+    margin-right: 12px;
+}
+.select-color li .text{
+    font-size: 12px;
+    color: #666;
+    position: absolute;
+    white-space: nowrap;
+    left: -50%;
+    display: none;
+    margin-top: 5px;
+}
+.select-color li.cur .text{
+    display: block;
+}
+
+
+.car-details-box .interior{
+    height: 624.5px;
+    background-image: url(img/car-details/banner-02.jpg);
+    background-size: cover;
+    position: relative;
+}
+.car-details-box .interior .text-box{
+    padding-top: 115px;
+}
+.car-details-box .interior h2{
+    color: #fff;
+}
+
+.car-details-box .more-btn{
+    position: absolute;
+    width: 140px;
+    height: 40px;
+    line-height: 40px;
+    border:1px solid #ccc;
+    text-align: center;
+    color: #fff;
+    bottom: 79px;
+    right: 20px;
+    font-size: 14px;
+}
+.car-details-box .interior .swipe{
+    margin:0 20px;
+}
+
+.car-details-box .swipe-list{
+    text-align: center;
+    margin-top: 20px;
+    /* position: absolute; */
+    /* width: 100%; */
+    /* bottom: 180px; */
+}
+.car-details-box .swipe-list li{
+    width: 7px;
+    height: 7px;
+    background: #E9E9E9;
+    display: inline-block;
+    border-radius: 22px;
+    margin-right: 5px;
+}
+.car-details-box .swipe-list li:last-child{
+    margin-right: 0;
+}
+.car-details-box .swipe-list li.cur{
+    background: none;
+    border:2px solid #fff;
+}
+
+
+.character{
+    padding-left: 20px;
+    /* padding-right: 20px; */
+    line-height: 1.5;
+    position: relative;
+    padding-bottom: 80px;
+    font-size: 14px;
+}
+.character .text-box{
+    text-align: left;
+}
+
+.character .swipe{
+    padding-top: 25px;
+}
+
+.character .swipe h3{
+    font-size: 19px;
+    color: #000;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.character .swipe p{
+    font-size: 14px;
+    color: #666;
+}
+
+.car-details-box .character .swipe-list li.cur{
+    background: none;
+    border:2px solid #234BA1;
+}
+.car-details-box .character .more-btn{
+    background-color: #234BA1;
+    color: #fff;
+    left: 20px;
+    bottom: 0;
+    border: none;
+}
+
+
+.performance-box{
+    height: 586px;
+    background: url(img/car-details/banner-03.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+.performance-box .text-box{
+    color: #fff;
+    padding-top: 70px;
+}
+.performance-box select{
+    width: 200px;
+    color: #fff;
+    border-color: #606062;
+    background-image: url(img/down-arrow-white@2x.png);
+    background-color: transparent;
+    background-size: 14.5px 7.5px;
+    position: absolute;
+    right: 20px;
+    margin-top: 25px;
+}
+.performance-box .data-list{
+    color: #fff;
+    box-sizing: border-box;
+    font-size: 0;
+    margin-top: 110px;
+}
+
+.performance-box .data-list li{
+    width: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 17px;
+    margin-bottom: 40px;
+}
+.performance-box .data-list .til{
+    color: #fff;
+    font-size: 39px;
+}
+.performance-box .data-list p{
+    font-size: 17px;
+    color: #999;
+}
+
+.animated {
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both
+}
+
+.animated.infinite {
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite
+}
+
+.change-img{
+    position: absolute;
+    top: 0;
+    -webkit-animation-name: fadeOut;
+    animation-name: fadeOut
+}
+
+@-webkit-keyframes fadeOut {
+    0% {
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
 
 
 
+.shop-box{
+    height: 537.5px;
+    background-image: url(img/car-details/banner-04.jpg);
+    margin-top: 40px;
+    padding-top: 40px;
+    line-height: 1.5;
+    color: #fff;
+    font-size: 14px;
+}
+.shop-box .text-box{
+    text-align: left;
+    padding-left: 20px;
+    color: #fff;
+}
+.shop-box .query{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0;
+}
+.shop-box .btn{
+    width: 110px;
+    height: 39px;
+    line-height: 39px;
+    background-color: #234BA1 !important;
+    color: #FFF;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 14px;
+}
+.shop-box select{
+    width: 220px;
+    margin-right: 10px;
+} 
 
+.shop-box .map-text{
+    padding: 20px 20px;
+}
+.shop-box .map-text .line{
+    border-bottom:1px solid #696B73;
+    padding-bottom: 10px;
+}
+.shop-box .map-area{
+    font-size: 12px;
+    color: #999999;
+    padding: 10px 0;
+}
+.shop-box .map-area h3{
+    font-size: 17px;
+    color: #fff;
+    color: #fff;
+}
 
+.shop-box .phone-number{
+    border:1px solid #fff;
+    height: 25px;
+    line-height: 25px;
+    padding-left: 20px;
+    margin-top: 7px;
+}
+.shop-box .phone-number a{
+    color: #fff;
+}
+.shop-box .phone-number a i{
+    margin-right: 5px;
+    vertical-align: -1px;
+}
+.shop-box .phone-number .right{
+    text-align: center;
+    width: 110px;
+    position: relative;
+}
+.shop-box .phone-number .line-icon{
+    border-left: 1px solid #fff;
+    height: 10px;
+    position: absolute;
+    left: 0;
+    top: 6px;
+}
 
+.more-pc{
+    height: 452.5px;
+    background-image: url(img/car-details/banner-05.jpg);
+    position: relative;
+}
+.more-pc .text-box{
+    color: #fff;
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 25px;
+}
+.more-pc .more-btn{
 
+left: 20px;
 
+bottom: 55px;
+}
 
+.more-pc .user-box-list li{
+    width: 350px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.more-pc .user-box-list li img{
+    max-height: 210px;
+    width: auto;
+}
+.register .ui-select-group{
+    margin-left: 0px;
+}
+.register i{
+    margin-top: 4px;
+}

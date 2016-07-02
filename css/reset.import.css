@@ -39,6 +39,7 @@ body {
     -webkit-tap-highlight-color: transparent;
     outline: 0;
     padding-top: 50px;
+    font-size: 14px;
 }
 
 h1,
@@ -175,7 +176,7 @@ select{
     font-size: 15px;
     cursor: pointer;
     height: 39px;
-    padding: 8px 24px 7px 6px;
+    padding: 8px 24px 7px 10px;
     vertical-align: middle;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -198,6 +199,7 @@ select{
     float:left;
     width:100%;
     position: relative;
+    padding-right: 20px;
 }
 /* END required styles */
 
