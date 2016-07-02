@@ -791,7 +791,7 @@ font-size: 14px;
 
 .character{
     padding-left: 20px;
-    /* padding-right: 20px; */
+    padding-right: 20px;
     line-height: 1.5;
     position: relative;
     padding-bottom: 80px;
@@ -809,12 +809,14 @@ font-size: 14px;
     font-size: 19px;
     color: #000;
     font-weight: bold;
-    margin-top: 10px;
+    margin-top: 30px;
     margin-bottom: 5px;
 }
 .character .swipe p{
     font-size: 14px;
     color: #666;
+    word-break: break-word;
+    width: 335px;
 }
 
 .car-details-box .character .swipe-list li.cur{
@@ -894,12 +896,16 @@ font-size: 14px;
     -webkit-animation-iteration-count: infinite;
     animation-iteration-count: infinite
 }
-
+.character img{
+    width: 335px;
+}
 .change-img{
+    width: 335px;
     position: absolute;
     top: 0;
     -webkit-animation-name: fadeOut;
-    animation-name: fadeOut
+    animation-name: fadeOut;
+    left: 0;
 }
 
 @-webkit-keyframes fadeOut {
