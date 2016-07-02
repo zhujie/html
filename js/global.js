@@ -121,7 +121,12 @@ window.mySwipe = Swipe(elem, {
 });
 
 
+$("#configList select").change(function(){
+    var $val = Number($(this).val());
 
+    $(".con1").eq($val).show().siblings().hide();
+
+})
 
 
 

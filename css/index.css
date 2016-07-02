@@ -330,6 +330,14 @@ width: 80px !important;
     padding: 20px;
 }
 
+.con1{
+    display: none;
+}
+.con1:first-child{
+    display: block;
+}
+
+
 .config-list .til{
     font-size: 14px;
     font-weight: bold;
