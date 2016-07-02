@@ -126,6 +126,12 @@ $("#configList select").change(function(){
 
     $(".con1").eq($val).show().siblings().hide();
 
+});
+$("#performanceSelect").change(function(){
+    var $val = Number($(this).val());
+
+    $(".data-list").eq($val).show().siblings().hide();
+
 })
 
 

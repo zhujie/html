@@ -617,8 +617,9 @@ width: 80px !important;
 }
 .user-box-list-box{
     position: absolute;
-    overflow: auto;
+    overflow-x: auto;
     top: 110px;
+    overflow-y: hidden;
     width: 100%;
     box-sizing: border-box;
     padding-left: 20px;
@@ -629,7 +630,7 @@ width: 80px !important;
 }
 .user-box-list li{
     width: 120px;
-    height: 140px;
+    height: 210px;
     display: inline-block;
     margin-right: 10px;
 }
@@ -851,11 +852,18 @@ font-size: 14px;
     right: 20px;
     margin-top: 25px;
 }
+.performance-box .data-list-box{
+
+}
 .performance-box .data-list{
     color: #fff;
     box-sizing: border-box;
     font-size: 0;
     margin-top: 110px;
+    display: none;
+}
+.performance-box .data-list:first-child{
+    display: block;
 }
 
 .performance-box .data-list li{
@@ -1019,7 +1027,10 @@ bottom: 55px;
 }
 
 .more-pc .user-box-list li{
-    width: 350px;
+    vertical-align: middle;
+}
+.more-pc .user-box-list li.length{
+    width: 1390px;
 }
 
 .more-pc .user-box-list li img{
