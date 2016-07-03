@@ -353,6 +353,61 @@
 <script src="js/iSlider.min.js"></script>
 <script src="js/iSlider.animate.min.js"></script>
 <script src="js/swipe.js"></script>
+
+<script>
+    var list = [
+    {content: "css/img/car-details/slider01.jpg"},
+    {content: "css/img/car-details/slider01.jpg"},
+    {content: "css/img/car-details/slider01.jpg"},
+    {content: "css/img/car-details/slider01.jpg"},
+    {content: "css/img/car-details/slider01.jpg"},
+    {content: "css/img/car-details/slider01.jpg"},
+    {content: "css/img/car-details/slider01.jpg"}
+    ];
+
+    var characterList = [
+    {
+        content: '<div class="">' +
+        '<img src="css/img/car-details/tech1.jpg" alt=""/>' +
+        '<img class="change-img animated infinite" src="css/img/car-details/tech1-1.png" alt=""/>' +
+        '<h3>斯巴鲁智能驾驶提升系统 (SI-DRIVE)</h3>' +
+        '<p>斯巴鲁的核心技术之一SI-DRIVE，为驾驶者提供了三种不同的驾驶模式。驾驶者可以根据路况和喜好，随心所欲地选择驾驶模式。这凌驾于传统技术之上的创新科技，实现了高性能驾驶和环境保护的完美平衡。</p>' +
+        '</div>'
+    },
+    {
+        content: ''+
+        '<div class="test-box">' +
+        '<img src="css/img/car-details/tech1.jpg" alt=""/>' +
+        '<img class="change-img animated infinite" src="css/img/car-details/tech1-1.png" alt=""/>' +
+        '<h3>斯巴鲁智能驾驶提升系统 (SI-DRIVE)</h3>' +
+        '<p>斯巴鲁的核心技术之一SI-DRIVE，为驾驶者提供了三种不同的驾驶模式。驾驶者可以根据路况和喜好，随心所欲地选择驾驶模式。这凌驾于传统技术之上的创新科技，实现了高性能驾驶和环境保护的完美平衡。</p>' +
+        '</div>'
+    }
+    ];
+
+
+
+
+    var S = new iSlider(document.getElementById('iSlider-wrapper'), list, {
+    isLooping: 1,
+    isOverspread: 1,
+    isAutoplay: 2,
+    animateTime: 800,
+    animateType: 'flow'
+    });
+
+
+
+
+    var Ss = new iSlider(document.getElementById('d3'), characterList, {
+    isLooping: 1,
+    isOverspread: 1,
+    isAutoplay: 2,
+    animateTime: 800,
+    animateType: 'rotate'
+    });
+    
+</script>
 <script src="js/global.js"></script>
 
 </body>
