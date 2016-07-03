@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="css/index.css"/>
+</head>
+<body>
+
+
+<div id="iSlider-wrapper">
+
+</div>
+
+
+
+<script src="js/iSlider.min.js"></script>
+<script src="js/iSlider.animate.min.js"></script>
+
+<script>
+    var list = [
+        {content: "http://be-fe.github.io/static/images/iSlider-card/1.jpg"},
+        {content: "http://be-fe.github.io/static/images/iSlider-card/2.jpg"},
+        {content: "http://be-fe.github.io/static/images/iSlider-card/3.jpg"},
+        {content: "http://be-fe.github.io/static/images/iSlider-card/4.jpg"},
+        {content: "http://be-fe.github.io/static/images/iSlider-card/5.jpg"},
+        {content: "http://be-fe.github.io/static/images/iSlider-card/6.jpg"},
+        {content: "http://be-fe.github.io/static/images/iSlider-card/7.jpg"},
+        {content: "http://be-fe.github.io/static/images/iSlider-card/8.jpg"}
+    ];
+
+    var S = new iSlider(document.getElementById('iSlider-wrapper'), list, {
+        isLooping: 1,
+        isOverspread: 1,
+        isAutoplay: 1,
+        animateTime: 800,
+        animateType: 'flow'
+    });
+
+</script>
+</body>
+</html>

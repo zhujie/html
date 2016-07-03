@@ -428,6 +428,7 @@ width: 80px !important;
 /*品牌大事件*/
 .history-box.brand .title{
     margin-bottom: 26px;
+    line-height: 1.5;
 }
 .history-box.brand .title h2{
     font-size: 28px;
@@ -624,6 +625,7 @@ width: 80px !important;
     box-sizing: border-box;
     padding-left: 20px;
     padding-right: 20px;
+    margin-top: 30px;
 }
 .user-box-list{
     white-space: nowrap;
@@ -770,7 +772,7 @@ font-size: 14px;
     margin-top: 20px;
     /* position: absolute; */
     /* width: 100%; */
-    /* bottom: 180px; */
+    /* bottom: 0; */
 }
 .car-details-box .swipe-list li{
     width: 7px;
@@ -794,7 +796,7 @@ font-size: 14px;
     padding-right: 20px;
     line-height: 1.5;
     position: relative;
-    padding-bottom: 80px;
+    padding-bottom: 60px;
     font-size: 14px;
 }
 .character .text-box{
@@ -803,6 +805,8 @@ font-size: 14px;
 
 .character .swipe{
     padding-top: 25px;
+    margin-top: 0 !important;
+    /* height: 523px; */
 }
 
 .character .swipe h3{
@@ -811,6 +815,7 @@ font-size: 14px;
     font-weight: bold;
     margin-top: 30px;
     margin-bottom: 5px;
+    z-index: 9999999;
 }
 .character .swipe p{
     font-size: 14px;
@@ -933,15 +938,15 @@ font-size: 14px;
 }
 
 
-
 .shop-box{
-    height: 537.5px;
     background-image: url(img/car-details/banner-04.jpg);
     margin-top: 40px;
     padding-top: 40px;
+    padding-bottom: 10px;
     line-height: 1.5;
     color: #fff;
     font-size: 14px;
+    background-size: cover;
 }
 .shop-box .text-box{
     text-align: left;
@@ -1049,3 +1054,147 @@ bottom: 55px;
 .register i{
     margin-top: 4px;
 }
+
+
+/*ul wrapper*/
+
+#iSlider-wrapper,
+#d3
+{
+    height: 180px;
+    width: 100%;
+    overflow:hidden;
+    /* position: absolute; */
+    margin-top: 50px;
+}
+#d3{
+    overflow: inherit;
+}
+#iSlider-wrapper ul ,
+#d3 ul
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    /* overflow-x: hidden; */
+}
+
+#iSlider-wrapper li,
+#d3 li
+{
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    /* height: 249.5px; */
+    display: -webkit-box;
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
+    list-style: none;
+}
+
+#iSlider-wrapper li img ,
+#d3 li img
+{
+    max-width: 100%;
+    height: auto;
+}
+
+.tech{
+    /* padding-bottom: 200px; */
+}
+
+.tech .swipe-list{
+    margin-top: 190px;
+}
+
+
+
+
+
+@-webkit-keyframes bounceInRight {
+    0%,100%,60%,75%,90% {
+        -webkit-animation-timing-function: cubic-bezier(0.215,.61,.355,1);
+        animation-timing-function: cubic-bezier(0.215,.61,.355,1)
+    }
+
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(3000px,0,0);
+        transform: translate3d(3000px,0,0)
+    }
+
+    60% {
+        opacity: 1;
+        -webkit-transform: translate3d(-25px,0,0);
+        transform: translate3d(-25px,0,0)
+    }
+
+    75% {
+        -webkit-transform: translate3d(10px,0,0);
+        transform: translate3d(10px,0,0)
+    }
+
+    90% {
+        -webkit-transform: translate3d(-5px,0,0);
+        transform: translate3d(-5px,0,0)
+    }
+
+    100% {
+        -webkit-transform: none;
+        transform: none
+    }
+}
+
+@keyframes bounceInRight {
+    0%,100%,60%,75%,90% {
+        -webkit-animation-timing-function: cubic-bezier(0.215,.61,.355,1);
+        animation-timing-function: cubic-bezier(0.215,.61,.355,1)
+    }
+
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(3000px,0,0);
+        transform: translate3d(3000px,0,0)
+    }
+
+    60% {
+        opacity: 1;
+        -webkit-transform: translate3d(-25px,0,0);
+        transform: translate3d(-25px,0,0)
+    }
+
+    75% {
+        -webkit-transform: translate3d(10px,0,0);
+        transform: translate3d(10px,0,0)
+    }
+
+    90% {
+        -webkit-transform: translate3d(-5px,0,0);
+        transform: translate3d(-5px,0,0)
+    }
+
+    100% {
+        -webkit-transform: none;
+        transform: none
+    }
+}
+
+.bounceInRight {
+    -webkit-animation-name: bounceInRight;
+    animation-name: bounceInRight
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

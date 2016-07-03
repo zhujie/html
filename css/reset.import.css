@@ -186,7 +186,7 @@ select{
 
 /* Swipe 2 required styles */
 .swipe {
-    overflow: hidden;
+    overflow-x: hidden;
     visibility: hidden;
     position: relative;
     padding-top: 45px;
@@ -204,8 +204,39 @@ select{
 /* END required styles */
 
 
+.animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both
+}
 
+.delay-1
+{
+    animation-delay:1s;
+    -webkit-animation-delay:1s; /* Safari 和 Chrome */
+}
+.delay-2
+{
+    animation-delay:2s;
+    -webkit-animation-delay:2s; /* Safari 和 Chrome */
+}
+.delay-3
+{
+    animation-delay:3s;
+    -webkit-animation-delay:3s; /* Safari 和 Chrome */
+}
 
+.delay-4
+{
+    animation-delay:4s;
+    -webkit-animation-delay:4s; /* Safari 和 Chrome */
+}
+.delay-5
+{
+    animation-delay:5s;
+    -webkit-animation-delay:5s; /* Safari 和 Chrome */
+}
 
 
 
