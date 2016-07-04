@@ -46,6 +46,7 @@ var elem = document.getElementById('mySwipe');
 window.mySwipe = Swipe(elem, {
     continuous: true,
     disableScroll: false,
+    auto: 2000,
     stopPropagation: false,
     callback: function(index, element) {
         $("body").scrollTop(0);
@@ -76,6 +77,7 @@ var elem = document.getElementById('mySwipe2');
 window.mySwipe = Swipe(elem, {
     continuous: true,
     disableScroll: false,
+    auto: 2000,
     stopPropagation: false,
     callback: function(index, element) {
         $("#swipe-list1 li").eq(index).addClass('cur').siblings().removeClass('cur')
@@ -108,6 +110,7 @@ window.mySwipe = Swipe(elem, {
 var elem = document.getElementById('mySwipe4');
 window.mySwipe = Swipe(elem, {
     continuous: true,
+    auto: 2000,
     disableScroll: false,
     stopPropagation: false,
     callback: function(index, element) {
