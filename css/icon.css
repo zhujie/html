@@ -82,7 +82,11 @@
     height: 12px;
     background-image: url(img/slice/white-phone@2x.png);
 }
-
+.icon-wen{
+    width: 20px;
+    height: 20px;
+    background-image: url(img/slice/wen-icon@2x.png);
+}
 
 
 

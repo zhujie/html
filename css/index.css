@@ -226,6 +226,17 @@ footer a{
     top: -5px;
     margin-left: 22px;
 }
+.member-bd .ft-box{text-align: center;position: fixed;bottom: 35px;width: 100%;}
+
+.member-bd .ft-box .icon-wen{
+    vertical-align: -4px;
+}
+.member-bd .ft-box .icon-newMes{
+    margin-left: 5px;
+    position: absolute;
+}
+
+
 
 /*会员注册*/
 .ui-form{
@@ -1186,11 +1197,49 @@ bottom: 55px;
 }
 
 
+.liuyan-list{
+    padding: 10px 20px;
+    padding-bottom: 0px;
+    margin-bottom: -1px;
+    overflow: hidden;
+}
+.liuyan-list:first-child{
+}
 
 
+.liuyan-list img{
+    width: 40px;
+    height: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    border-radius: 40px;
+    display: inline-block;
+    vertical-align: top;
+}
+.liuyan-box hr{
+    margin-top: -1px;
+    z-index: 99;
+    position: relative;
+    /* border-bottom: 1px solid #ccc; */
+}
 
-
-
+.liuyan-list .right-box{
+    display:inline-block;
+    width: 275px;
+    margin-left: 10px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+.liuyan-list .bd{
+    margin-top: 5px;
+}
+.liuyan-list .text{
+    color: #ccc;
+    font-size: 12px;
+}
+.liuyan-list .text.right{
+    float:right;
+}
 
 
 
