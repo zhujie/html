@@ -146,7 +146,7 @@ i {
     pointer-events: none;
 }
 .ui-select-group {
-    margin-left: 35px;
+    /*margin-left: 35px;*/
     overflow: hidden;
     display: inline-block;
     vertical-align: middle;
@@ -160,6 +160,8 @@ i {
     background: 0 0;
     width: 100%;
     padding-right: 14px;
+    color:#000;
+    padding-left: 0;
 }
 select{
     -webkit-appearance: none;
